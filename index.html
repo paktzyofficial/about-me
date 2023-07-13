@@ -1,4 +1,772 @@
-<script>
-<!-- code by umammissqueens -->
-document.write(unescape('%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22zxx%22%3E%0A%0A%0A%3C%21--%20Mirrored%20from%20exill.dk/demo/kitzu/template/index.html%20by%20HTTrack%20Website%20Copier/3.x%20%5BXR%26CO%272014%5D%2C%20Thu%2C%2003%20Sep%202020%2016%3A59%3A42%20GMT%20--%3E%0A%3C%21--%20Added%20by%20HTTrack%20--%3E%3Cmeta%20http-equiv%3D%22content-type%22%20content%3D%22text/html%3Bcharset%3DUTF-8%22%20/%3E%3C%21--%20/Added%20by%20HTTrack%20--%3E%0A%3Chead%3E%0A%20%20%3C%21--%20Required%20meta%20tags--%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3C%21--%20Title--%3E%0A%20%20%3Ctitle%3EPakTzy%20-%20Personal%20Portfolio%3C/title%3E%0A%20%20%3C%21--%20Description--%3E%0A%20%20%3Cmeta%20name%3D%22description%22%20content%3D%22Personal%20Portfolio%20Template%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0A%20%20%3C%21--%20Favicons--%3E%0A%20%20%3Clink%20rel%3D%22apple-touch-icon%22%20sizes%3D%22180x180%22%20href%3D%22img/favicons/apple-touch-icon.png%22%3E%0A%20%20%3Clink%20rel%3D%22icon%22%20type%3D%22image/png%22%20sizes%3D%2232x32%22%20href%3D%22img/favicons/favicon-32x32.png%22%3E%0A%20%20%3Clink%20rel%3D%22icon%22%20type%3D%22image/png%22%20sizes%3D%2216x16%22%20href%3D%22img/favicons/favicon-16x16.png%22%3E%0A%20%20%3C%21--%20Web%20fonts--%3E%0A%20%20%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css%3Ffamily%3DPoppins%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%26amp%3Bdisplay%3Dswap%22%20rel%3D%22stylesheet%22%3E%0A%20%20%3C%21--%20CSS%20vendors--%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/bootstrap-custom.css%22%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/ionicons.min.css%22%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/tiny-slider.css%22%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/lity.min.css%22%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/simplebar.min.css%22%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/jquery.mb.YTPlayer.min.css%22%3E%0A%20%20%3C%21--%20Main%20CSS--%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/main.css%22%3E%0A%20%20%3C%21--%20CSS%20Color%20scheme--%3E%0A%20%20%3Clink%20id%3D%22color-scheme%22%20rel%3D%22stylesheet%22%20href%3D%22css/colors/main-darkgreen.css%22%3E%0A%20%20%3C%21--%20Custom%20CSS%20%28Add%20your%20custom%20CSS%20styles%20to%20this%20file%29--%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22css/custom.css%22%3E%0A%20%20%3C%21--%20removeIf%28customizerDist%29--%3E%0A%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22../customizer/main.css%22%3E%0A%20%20%3C%21--%20endremoveIf%28customizerDist%29--%3E%0A%3C/head%3E%0A%0A%3Cbody%20class%3D%22theme-dark%22%3E%0A%20%20%3C%21--%20Preloader--%3E%0A%20%20%3Cdiv%20class%3D%22preloader%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22preloader-block%22%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22preloader-icon%22%3E%3Cspan%20class%3D%22loading-dot%20loading-dot-1%22%3E%3C/span%3E%3Cspan%20class%3D%22loading-dot%20loading-dot-2%22%3E%3C/span%3E%3Cspan%20class%3D%22loading-dot%20loading-dot-3%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20id%3D%22overlay-effect%22%3E%3C/div%3E%0A%20%20%3C%21--%20Navbar--%3E%0A%20%20%3Cnav%20class%3D%22navbar-expand-md%20navbar%20fixed-top%22%20id%3D%22navbar%22%3E%3Ca%20class%3D%22navbar-brand%22%20data-scroll%3D%22%22%20href%3D%22%23home-area%22%3E%0A%20%20%20%20%20%20%3C%21--%20Navbar%20Logo--%3E%0A%20%20%20%20%20%20%3Cimg%20class%3D%22img-fluid%22%20src%3D%22img/paktzy.png%22%20alt%3D%22Logo%20PakTzy%22%3E%3C/a%3E%0A%20%20%20%20%3Cspan%20class%3D%22navbar-menu%20ml-auto%22%20data-toggle%3D%22collapse%22%20data-target%3D%22%23navbarSupportedContent%22%20aria-controls%3D%22navbarSupportedContent%22%20aria-expanded%3D%22false%22%20aria-label%3D%22Toggle%20navigation%22%20role%3D%22button%22%3E%3Cspan%20class%3D%22btn-line%22%3E%3C/span%3E%3C/span%3E%0A%20%20%20%20%3Cdiv%20class%3D%22collapse%20navbar-collapse%20order-1%20order-lg-0%22%20id%3D%22navbarSupportedContent%22%3E%0A%20%20%20%20%20%20%3C%21--%20Navbar%20menu--%3E%0A%20%20%20%20%20%20%3Cul%20class%3D%22navbar-nav%20ml-auto%22%3E%0A%20%20%20%20%20%20%20%20%3Cli%20class%3D%22nav-item%22%3E%3Ca%20class%3D%22nav-link%22%20href%3D%22%23about%22%3EAbout%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%3Cli%20class%3D%22nav-item%22%3E%3Ca%20class%3D%22nav-link%22%20href%3D%22%23resume%22%3EResume%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%3Cli%20class%3D%22nav-item%22%3E%3Ca%20class%3D%22nav-link%22%20href%3D%22%23portfolio%22%3EPortfolio%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%3Cli%20class%3D%22nav-item%22%3E%3Ca%20class%3D%22nav-link%22%20href%3D%22%23blog%22%3EBlog%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%3Cli%20class%3D%22nav-item%22%3E%3Ca%20class%3D%22nav-link%22%20href%3D%22%23contact%22%3EContact%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/nav%3E%0A%20%20%3C%21--%20Home--%3E%0A%20%20%3Csection%20class%3D%22home-area%20element-cover-bg%22%20id%3D%22home%22%20style%3D%22background-image%3Aurl%28img/home.jpg%29%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%20h-100%22%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22row%20h-100%20align-items-center%20justify-content-center%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-lg-8%20home-content%20text-center%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch1%20class%3D%22home-name%22%3EWelcome%3C/span%3E%3C/h1%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch4%20class%3D%22cd-headline%20clip%20home-headline%22%3EI%u2019m%20a%20%3Cspan%20class%3D%22cd-words-wrapper%20single-headline%22%3E%3Cb%20class%3D%22is-visible%22%3EGamer%3C/b%3E%3Cb%3EDesigner%3C/b%3E%3Cb%3EModder%3C/b%3E%3C/span%3E%3C/h4%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%20%20%3Cdiv%20class%3D%22fixed-wrapper%22%3E%0A%20%20%20%20%20%20%3C%21--%20Languages%20list--%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22fixed-block%20block-left%22%3E%0A%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-unstyled%20languages-list%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22%230%22%3E%3Cspan%20class%3D%22single-language%22%3EENG%3C/span%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22%230%22%3E%3Cspan%20class%3D%22single-language%22%3EJAP%3C/span%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C%21--%20Social%20media%20icons--%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22fixed-block%20block-right%22%3E%0A%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-unstyled%20social-icons%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-twitter%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-facebook%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-linkedin%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-github%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-instagram%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/section%3E%0A%20%20%3C%21--%20About%20lightbox--%3E%0A%20%20%3Cdiv%20class%3D%22lightbox-wrapper%22%20id%3D%22about%22%20data-simplebar%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-close%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22close-btn%22%20data-modal-close%3D%22%22%3E%3Cspan%20class%3D%22btn-line%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%20page-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3EGet%20to%20know%20me%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EAbout%20Me%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22animated-bar%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Info%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22info-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%20align-items-center%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Picture%20part--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-lg-5%20info-img%22%3E%3Cimg%20class%3D%22img-fluid%20img-thumbnail%22%20src%3D%22img/info-img.jpg%22%20alt%3D%22About%20Picture%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Content%20part--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-lg-7%20info-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22content-block%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22content-subtitle%22%3EWho%20am%20i%3F%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22content-title%22%3EI%27m%20PakTzy%2C%20a%20visual%20UX/UI%20Designer%20and%20Web%20Developer%3C/h6%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22content-description%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%3EModding%20is%20a%20slang%20expression%20derived%20from%20the%20English%20verb%20%22to%20modify%22.%20The%20term%20refers%20to%20modification%20of%20hardware%2C%20software%2C%20or%20anything%20else%2C%20to%20perform%20a%20function%20not%20originally%20intended%20by%20the%20designer%2C%20or%20to%20achieve%20bespoke%20specification%20or%20appearance.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Caddress%20class%3D%22content-info%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20single-info%22%3E%3Cspan%3EName%3A%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%3EAhmad%20Qoidul%20Umam%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20single-info%22%3E%3Cspan%3EEmail%3A%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%3E%3Ca%20href%3D%22mailto%3A%20umammissqueen@gmail.com%22%3Eumammissqueen@gmail.com%3C/a%3E%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20single-info%22%3E%3Cspan%3EAge%3A%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%3E20%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20single-info%22%3E%3Cspan%3EFrom%3A%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%3ELampung%2C%20Indonesian%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/address%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22d-block%20d-sm-flex%20align-items-center%22%3E%3Ca%20class%3D%22btn%20content-download%20button-main%20button-scheme%22%20href%3D%22https%3A//wa.me/6285609898113%22%20role%3D%22button%22%3EContact%20Me%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-unstyled%20list-inline%20content-follow%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-twitter%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-instagram%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-linkedin%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-github%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%3E%3Ca%20href%3D%22%230%22%3E%3Ci%20class%3D%22icon%20ion-logo-facebook%22%3E%3C/i%3E%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Services%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22services-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3EServices%20i%20offer%20to%20my%20clients%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EMy%20Services%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20service--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-service%22%3E%3Ci%20class%3D%22icon%20service-icon%20ion-logo-css3%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22service-title%22%3EDesign%20Trends%3C/h6%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22service-description%22%3Ecreate%20a%20design%20that%20is%20currently%20trending%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20service--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-service%22%3E%3Ci%20class%3D%22icon%20service-icon%20ion-md-images%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22service-title%22%3EPSD%20Design%3C/h6%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22service-description%22%3EPSD%20is%20a%20file%20with%20the%20extension%20formed%20from%20editing%20results%20in%20the%20Adobe%20Photoshop%20application.%20However%2C%20you%20can%20also%20open%20this%20file%20with%20various%20other%20design%20and%20editing%20applications%2C%20such%20as%20Coreldraw%2C%20Paint%20Shop%20Pro%20Tools%2C%20and%20the%20like.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20service--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-service%22%3E%3Ci%20class%3D%22icon%20service-icon%20ion-logo-ionic%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22service-title%22%3ECustomer%20Support%3C/h6%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22service-description%22%3ECustomer%20Support%20is%20a%20range%20of%20services%20to%20assist%20customers%20in%20making%20cost%20effective%20and%20correct%20use%20of%20a%20product.%20It%20includes%20assistance%20in%20planning%2C%20installation%2C%20training%2C%20troubleshooting%2C%20maintenance%2C%20upgrading%2C%20and%20disposal%20of%20a%20product.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20service--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-service%22%3E%3Ci%20class%3D%22icon%20service-icon%20ion-logo-wordpress%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22service-title%22%3EWeb%20Development%3C/h6%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22service-description%22%3EWeb%20development%20is%20the%20process%20of%20building%20and%20maintaining%20websites.%20This%20process%20works%20behind%20the%20scenes%20to%20create%20attractive%20and%20well-functioning%20websites%20to%20enhance%20the%20user%20experience.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20service--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-service%22%3E%3Ci%20class%3D%22icon%20service-icon%20ion-md-move%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22service-title%22%3EFully%20Responsive%3C/h6%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22service-description%22%3EThe%20website%20that%20we%20make%20will%20be%20responsive%20for%20any%20device.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20service--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-service%22%3E%3Ci%20class%3D%22icon%20service-icon%20ion-ios-rocket%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22service-title%22%3EBranding%3C/h6%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22service-description%22%3Emake%20your%20website%20more%20professional%2C%20by%20using%20our%20services%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Testimonials%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22testimonials-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3EWhat%20my%20clients%20think%20about%20me%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3ETestimonials%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22my-slider%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22slider-item%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20review--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-review%20swiper-slide%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22review-header%20d-flex%20justify-content-between%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22review-client%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media%22%3E%3Cimg%20class%3D%22img-fluid%20rounded-circle%20client-avatar%22%20src%3D%22img/client-1.jpg%22%20alt%3D%22Client%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22client-details%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22client-name%22%3EJulia%20Sakura%3C/h6%3E%3Cspan%20class%3D%22client-role%22%3EEnvato%20Customer%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3Ci%20class%3D%22icon%20ion-md-quote%20review-icon%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22review-content%22%3EI%20was%20skeptical%20at%20first%2C%20but%20after%20implementing%20their%20marketing%20strategy%2C%20our%20website%20visits%20increased%20by%2050%25%20within%20three%20months.%20Their%20expertise%20and%20personalized%20approach%20have%20had%20a%20significant%20impact%20on%20our%20business%20growth.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22slider-item%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20review--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-review%20swiper-slide%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22review-header%20d-flex%20justify-content-between%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22review-client%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media%22%3E%3Cimg%20class%3D%22img-fluid%20rounded-circle%20client-avatar%22%20src%3D%22img/client-2.jpg%22%20alt%3D%22Client%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22client-details%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22client-name%22%3EJohn%20Santana%3C/h6%3E%3Cspan%20class%3D%22client-role%22%3EEntrepreneur%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3Ci%20class%3D%22icon%20ion-md-quote%20review-icon%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22review-content%22%3EThe%20CEO%20services%20from%20PakTzy%20have%20made%20a%20difference%20to%20the%20development%20of%20our%20online%20store.%20After%20using%20CEO%20services%20we%20experienced%20a%20425%25%20increase%20in%20product%20purchases%20through%20our%20online%20store%20%u2013%20amazing%21%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22slider-item%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20review--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-review%20swiper-slide%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22review-header%20d-flex%20justify-content-between%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22review-client%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media%22%3E%3Cimg%20class%3D%22img-fluid%20rounded-circle%20client-avatar%22%20src%3D%22img/client-3.jpg%22%20alt%3D%22Client%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22client-details%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22client-name%22%3EMaria%20Wilson%3C/h6%3E%3Cspan%20class%3D%22client-role%22%3EEnvato%20Customer%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3Ci%20class%3D%22icon%20ion-md-quote%20review-icon%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22review-content%22%3EEmma%20did%20an%20excellent%20creative%20job%2C%20addressing%20our%20request%20quickly%2C%20and%20also%20providing%20her%20own%20graphic%20insight%2C%20being%20open%20to%20feedback%20and%20changes%20or%20edits%20when%20they%20arose.%20She%20worked%20with%20us%20the%20entire%20way.%20Highly%20recommended.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Pricing%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22pricing-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3EGet%20started%20with%20my%20services%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EChoose%20a%20Plan%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%20align-items-center%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20plan--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-plan%20mb-4%20mb-sm-5%22%3E%3Ci%20class%3D%22plan-icon%20icon%20ion-md-egg%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22plan-type%22%3EStandard%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22plan-price%22%3E%2419/month%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-unstyled%20plan-list%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EMobile%20App%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EResponsive%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EDatabase%20Development%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWeb%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E24/7%20Support%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%3Ca%20class%3D%22btn%20button-main%20button-scheme%20plan-btn%22%20href%3D%22https%3A//wa.me/6285609898113%22%20role%3D%22button%22%3EGet%20Standard%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20plan--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-plan%20mb-4%20mb-sm-5%22%3E%3Ci%20class%3D%22plan-icon%20icon%20ion-ios-rocket%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22plan-type%22%3EProfessional%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22plan-price%22%3E%2429/month%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-unstyled%20plan-list%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EMobile%20App%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EResponsive%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EDatabase%20Development%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWeb%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E24/7%20Support%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%3Ca%20class%3D%22btn%20button-main%20button-scheme%20plan-btn%22%20href%3D%22https%3A//wa.me/6285609898113%22%20role%3D%22button%22%3EGet%20Pro%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20plan--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-plan%20mb-4%20mb-sm-5%22%3E%3Ci%20class%3D%22plan-icon%20icon%20ion-logo-ionic%22%3E%3C/i%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22plan-type%22%3EBusiness%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22plan-price%22%3E%2439/month%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-unstyled%20plan-list%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EMobile%20App%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EResponsive%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EDatabase%20Development%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWeb%20Design%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E24/7%20Support%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%3Ca%20class%3D%22btn%20button-main%20button-scheme%20plan-btn%22%20href%3D%22https%3A//wa.me/6285609898113%22%20role%3D%22button%22%3EGet%20Business%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/div%3E%0A%20%20%3C%21--%20Resume%20lightbox--%3E%0A%20%20%3Cdiv%20class%3D%22lightbox-wrapper%22%20id%3D%22resume%22%20data-simplebar%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-close%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22close-btn%22%20data-modal-close%3D%22%22%3E%3Cspan%20class%3D%22btn-line%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%20page-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3ECheck%20out%20my%20Resume%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EResume%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22animated-bar%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Resume%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22resume-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Education%20part--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-block%20education%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22col-title%22%3EEducation%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22resume-item%22%3E%3Cspan%20class%3D%22item-arrow%22%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22item-title%22%3EComputer%20Science%3C/h5%3E%3Cspan%20class%3D%22item-details%22%3EOpen%20University%20/%202011%20-%202015%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22item-description%22%3EComputer%20science%20is%20the%20study%20of%20computers%20and%20computational%20systems.%20It%20is%20a%20broad%20field%20which%20includes%20everything%20from%20the%20algorithms%20that%20make%20up%20software%20to%20how%20software%20interacts%20with%20hardware%20to%20how%20well%20software%20is%20developed%20and%20designed..%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22resume-item%22%3E%3Cspan%20class%3D%22item-arrow%22%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22item-title%22%3EBachelor%20Degree%3C/h5%3E%3Cspan%20class%3D%22item-details%22%3EUniversity%20of%20Tokyo%20/%202015%20-%202019%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22item-description%22%3EI%20have%20got%20a%20bachelor%27s%20degree%20after%20I%20graduated%20from%20one%20of%20the%20universities%20in%20Tokyo.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22resume-item%22%3E%3Cspan%20class%3D%22item-arrow%22%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22item-title%22%3EMaster%20Degree%3C/h5%3E%3Cspan%20class%3D%22item-details%22%3EHarvard%20University%20/%202019%20-%202023%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22item-description%22%3EI%20got%20a%20master%20degree%20after%20finishing%20college%20at%20harvard%20universit.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Experience%20part--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-block%20experience%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22col-title%22%3EExperience%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22resume-item%22%3E%3Cspan%20class%3D%22item-arrow%22%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22item-title%22%3ESoftware%20Engineer%3C/h5%3E%3Cspan%20class%3D%22item-details%22%3EAdobe%20/%202015%20-%202017%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22item-description%22%3ESoftware%20engineering%20is%20an%20engineering-based%20approach%20to%20software%20development.%20A%20software%20engineer%20is%20a%20person%20who%20applies%20the%20engineering%20design%20process%20to%20design%2C%20develop%2C%20maintain%2C%20test%2C%20and%20evaluate%20computer%20software.%20The%20term%20programmer%20is%20sometimes%20used%20as%20a%20synonym%2C%20but%20may%20also%20refer%20more%20to%20implementation%20rather%20than%20design%20and%20can%20also%20lack%20connotations%20of%20engineering%20education%20or%20skills.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22resume-item%22%3E%3Cspan%20class%3D%22item-arrow%22%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22item-title%22%3EBack-End%20Developer%3C/h5%3E%3Cspan%20class%3D%22item-details%22%3EGoogle%20/%202017%20-%202018%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22item-description%22%3EWeb%20development%20activities%20that%20are%20done%20at%20the%20back%20end%20of%20programs%20are%20referred%20to%20as%20back%20end%20development.%20Back-end%20development%20covers%20server-side%20web%20application%20logic%20and%20integration%20and%20activities%2C%20like%20writing%20APIs%2C%20creating%20libraries%2C%20and%20working%20with%20system%20components%20instead%20of%20frontend%20development%2C%20which%20focuses%20on%20customer-facing%20services%20and%20programs.%20Backend%20developers%20build%20code%20that%20allows%20a%20database%20and%20an%20application%20to%20communicate%20with%20one%20another.%20Backend%20developers%20take%20care%20and%20maintain%20the%20back-end%20of%20a%20website%2C%20Including%20databases%2C%20servers%2C%20and%20apps%2C%20and%20they%20control%20what%20you%20don%27t%20see.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22resume-item%22%3E%3Cspan%20class%3D%22item-arrow%22%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22item-title%22%3EUI/UX%20Designer%3C/h5%3E%3Cspan%20class%3D%22item-details%22%3EDiscord%20/%202019%20-%20Present%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22item-description%22%3EUI%20Designer%20is%20a%20professional%20who%20collaborates%20with%20a%20User%20Experience%20%28UX%29%20designer%20to%20create%20an%20intuitive%20and%20visually%20appealing%20interface%20for%20product%20design.%20%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Skills%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22skills-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3EMy%20level%20of%20knowledge%20in%20some%20tools%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EMy%20Skills%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-skill%22%20data-percentage%3D%2295%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22skill-info%22%3E%3Cspan%20class%3D%22skill-name%22%3EHTML/CSS%3C/span%3E%3Cspan%20class%3D%22skill-percentage%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress%20skill-progress%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress-bar%22%20role%3D%22progressbar%22%20aria-valuemin%3D%220%22%20aria-valuemax%3D%22100%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-skill%22%20data-percentage%3D%2280%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22skill-info%22%3E%3Cspan%20class%3D%22skill-name%22%3EWeb%20Design%3C/span%3E%3Cspan%20class%3D%22skill-percentage%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress%20skill-progress%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress-bar%22%20role%3D%22progressbar%22%20aria-valuemin%3D%220%22%20aria-valuemax%3D%22100%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-skill%22%20data-percentage%3D%2290%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22skill-info%22%3E%3Cspan%20class%3D%22skill-name%22%3EJavaScript%3C/span%3E%3Cspan%20class%3D%22skill-percentage%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress%20skill-progress%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress-bar%22%20role%3D%22progressbar%22%20aria-valuemin%3D%220%22%20aria-valuemax%3D%22100%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-skill%22%20data-percentage%3D%2290%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22skill-info%22%3E%3Cspan%20class%3D%22skill-name%22%3EReact%20JS%3C/span%3E%3Cspan%20class%3D%22skill-percentage%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress%20skill-progress%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress-bar%22%20role%3D%22progressbar%22%20aria-valuemin%3D%220%22%20aria-valuemax%3D%22100%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-skill%22%20data-percentage%3D%2295%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22skill-info%22%3E%3Cspan%20class%3D%22skill-name%22%3EExpress.js%3C/span%3E%3Cspan%20class%3D%22skill-percentage%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress%20skill-progress%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress-bar%22%20role%3D%22progressbar%22%20aria-valuemin%3D%220%22%20aria-valuemax%3D%22100%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-skill%22%20data-percentage%3D%2280%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22skill-info%22%3E%3Cspan%20class%3D%22skill-name%22%3ETypeScript%3C/span%3E%3Cspan%20class%3D%22skill-percentage%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress%20skill-progress%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22progress-bar%22%20role%3D%22progressbar%22%20aria-valuemin%3D%220%22%20aria-valuemax%3D%22100%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Video%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22video-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%20align-items-center%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-lg-6%20content-part%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch3%20class%3D%22video-title%22%3ETake%20a%20tour%20of%20my%20office%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22video-description%22%3EI%27m%20a%20beginner%20who%20wants%20to%20work%20with%20what%20I%20can%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22video-description%22%3EIf%20you%20want%20to%20see%20my%20skills%20please%20follow%20me%20on%20instagram.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-lg-6%20video-part%22%3E%3Ca%20class%3D%22media-lightbox%22%20href%3D%22https%3A//youtu.be/NvZ6Jn0mvXg%22%20data-lightbox%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22embed-responsive%20embed-responsive-16by9%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22embed-responsive-item%20element-cover-bg%22%3E%3Cspan%20class%3D%22play-wrapper%22%3E%3Ci%20class%3D%22icon%20ion-md-play%22%3E%3C/i%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/div%3E%0A%20%20%3C%21--%20Portfolio%20lightbox--%3E%0A%20%20%3Cdiv%20class%3D%22lightbox-wrapper%22%20id%3D%22portfolio%22%20data-simplebar%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-close%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22close-btn%22%20data-modal-close%3D%22%22%3E%3Cspan%20class%3D%22btn-line%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%20page-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3EShowcasing%20some%20of%20my%20best%20work%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EPortfolio%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22animated-bar%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Portfolio%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Filter%20nav--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-inline%20filter-control%22%20role%3D%22group%22%20aria-label%3D%22Filter%20Control%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%20tab-active%22%20data-filter%3D%22*%22%3EAll%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20data-filter%3D%22.brand%22%3EBrand%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20data-filter%3D%22.design%22%3EDesign%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20data-filter%3D%22.photos%22%3EPhotos%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Thumbnail%20list--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-grid%20row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20item--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-item%20col-6%20col-lg-4%20design%22%3E%3Ca%20class%3D%22portfolio-item%22%20href%3D%22img/item-1.jpg%22%20data-lightbox%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-wrapper%22%3E%3Cimg%20class%3D%22img-fluid%22%20alt%3D%22Item%22%20src%3D%22img/item-1.jpg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22item-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22content-title%22%3ELabel%20Tag%20Mockup%3C/h6%3E%3Cspan%20class%3D%22content-more%22%3EMore%20Info%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20item--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-item%20col-6%20col-lg-4%20photos%22%3E%3Ca%20class%3D%22portfolio-item%22%20href%3D%22img/item-2.jpg%22%20data-lightbox%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-wrapper%22%3E%3Cimg%20class%3D%22img-fluid%22%20alt%3D%22Item%22%20src%3D%22img/item-2.jpg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22item-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22content-title%22%3E3D%20Bag%20Mockup%3C/h6%3E%3Cspan%20class%3D%22content-more%22%3EMore%20Info%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20item--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-item%20col-6%20col-lg-4%20design%22%3E%3Ca%20class%3D%22portfolio-item%22%20href%3D%22img/item-3.jpg%22%20data-lightbox%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-wrapper%22%3E%3Cimg%20class%3D%22img-fluid%22%20alt%3D%22Item%22%20src%3D%22img/item-3.jpg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22item-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22content-title%22%3EModern%20Bag%20Design%3C/h6%3E%3Cspan%20class%3D%22content-more%22%3EMore%20Info%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20item--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-item%20col-6%20col-lg-4%20brand%22%3E%3Ca%20class%3D%22portfolio-item%22%20href%3D%22img/item-4.jpg%22%20data-lightbox%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-wrapper%22%3E%3Cimg%20class%3D%22img-fluid%22%20alt%3D%22Item%22%20src%3D%22img/item-4.jpg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22item-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22content-title%22%3ECoffee%20Cup%20Design%3C/h6%3E%3Cspan%20class%3D%22content-more%22%3EMore%20Info%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20item--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-item%20col-6%20col-lg-4%20brand%22%3E%3Ca%20class%3D%22portfolio-item%22%20href%3D%22img/item-5.jpg%22%20data-lightbox%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-wrapper%22%3E%3Cimg%20class%3D%22img-fluid%22%20alt%3D%22Item%22%20src%3D%22img/item-5.jpg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22item-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22content-title%22%3ET-Shirt%20Design%3C/h6%3E%3Cspan%20class%3D%22content-more%22%3EMore%20Info%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20item--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-item%20col-6%20col-lg-4%20photos%22%3E%3Ca%20class%3D%22portfolio-item%22%20href%3D%22img/item-6.jpg%22%20data-lightbox%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22portfolio-wrapper%22%3E%3Cimg%20class%3D%22img-fluid%22%20alt%3D%22Item%22%20src%3D%22img/item-6.jpg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22item-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22content-title%22%3EPackaging%20Box%20Mockup%3C/h6%3E%3Cspan%20class%3D%22content-more%22%3EMore%20Info%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/div%3E%0A%20%20%3C%21--%20Blog%20lightbox--%3E%0A%20%20%3Cdiv%20class%3D%22lightbox-wrapper%22%20id%3D%22blog%22%20data-simplebar%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-close%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22close-btn%22%20data-modal-close%3D%22%22%3E%3Cspan%20class%3D%22btn-line%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%20page-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3ECheck%20out%20my%20latest%20blog%20posts%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EMy%20Blog%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22animated-bar%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Blog%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22blog-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%20justify-content-center%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20post--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-sm-8%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card%20single-post%22%3E%3Ca%20class%3D%22post-img%22%20href%3D%22%230%22%3E%3Cimg%20class%3D%22card-img-top%22%20src%3D%22img/post-1.jpg%22%20alt%3D%22Blog%20post%22%3E%3Cspan%20class%3D%22content-date%22%3E11%20Dec%2C%2020%3C/span%3E%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card-body%20post-content%22%3E%3Ca%20href%3D%22%230%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22card-title%20content-title%22%3ETop%20tools%20for%20Photographers%3C/h5%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22card-text%20content-description%22%3ERegardless%20of%20what%20type%20of%20photos%20you%20take%2C%20there%20are%20a%20handful%20of%20tools%20used%20by%20all%20photographers.%20These%20tools%20are%20used%20to%20improve%20your%20photography%2C%20workflow%2C%20and%20make%20capturing%20the%20perfect%20shot%20easier%20than%20ever.%20With%20so%20many%20pieces%20of%20gear%2C%20editing%20programs%2C%20and%20fancy%20accessories%2C%20it%u2019s%20hard%20to%20cancel%20out%20all%20the%20noise.%20To%20make%20your%20life%20easy%2C%20here%20are%20the%2012%20best%20tools%20for%20photographers%20to%20start%20capturing%20photos%20like%20a%20professional.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20post--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-sm-8%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card%20single-post%22%3E%3Ca%20class%3D%22post-img%22%20href%3D%22%230%22%3E%3Cimg%20class%3D%22card-img-top%22%20src%3D%22img/post-2.jpg%22%20alt%3D%22Blog%20post%22%3E%3Cspan%20class%3D%22content-date%22%3E12%20Aug%2C%2020%3C/span%3E%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card-body%20post-content%22%3E%3Ca%20href%3D%22%230%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22card-title%20content-title%22%3EWhat%20is%20the%20key%20to%20a%20successful%20design%3F%3C/h5%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22card-text%20content-description%22%3ECreate%20a%20focus%20on%20the%20end%20user%2C%20Create%20a%20collaborative%20environment%2C%20drawing%20in%20all%20members%20of%20the%20team%20who%20will%20have%20to%20execute%20the%20project.%20Be%20prepared%20to%20fail%20fast%20and%20rethink%20the%20solution%20on%20the%20fly%2C%20Make%20use%20of%20quick%20and%20dirty%20iterative%20prototyping.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20post--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-sm-8%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card%20single-post%22%3E%3Ca%20class%3D%22post-img%22%20href%3D%22%230%22%3E%3Cimg%20class%3D%22card-img-top%22%20src%3D%22img/post-3.jpg%22%20alt%3D%22Blog%20post%22%3E%3Cspan%20class%3D%22content-date%22%3E4%20Feb%2C%2020%3C/span%3E%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card-body%20post-content%22%3E%3Ca%20href%3D%22%230%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22card-title%20content-title%22%3EHow%20long%20does%20it%20take%20to%20become%20web%20designer%3F%3C/h5%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22card-text%20content-description%22%3EHow%20Long%20Does%20It%20Take%20to%20Become%20a%20Web%20Developer%3F%20Pursuing%20a%20college%20degree%20in%20web%20development%2C%20computer%20science%2C%20or%20computer%20programming%20takes%202-4%20years%2C%20depending%20on%20whether%20you%20get%20an%20associate%20degree%20or%20a%20bachelor%27s%20degree.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C%21--%20Single%20post--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-sm-8%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card%20single-post%22%3E%3Ca%20class%3D%22post-img%22%20href%3D%22%230%22%3E%3Cimg%20class%3D%22card-img-top%22%20src%3D%22img/post-4.jpg%22%20alt%3D%22Blog%20post%22%3E%3Cspan%20class%3D%22content-date%22%3E11%20Dec%2C%2019%3C/span%3E%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card-body%20post-content%22%3E%3Ca%20href%3D%22%230%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22card-title%20content-title%22%3EWhat%20factors%20most%20influence%20a%20person%27s%20performance%3F%3C/h5%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22card-text%20content-description%22%3Efactors%20that%20affect%20employee%20performance%20include%3A%20competence%2C%20culture%2C%20motivation%2C%20leadership%2C%20work%20environment.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20post--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-sm-8%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card%20single-post%22%3E%3Ca%20class%3D%22post-img%22%20href%3D%22%230%22%3E%3Cimg%20class%3D%22card-img-top%22%20src%3D%22img/post-5.jpg%22%20alt%3D%22Blog%20post%22%3E%3Cspan%20class%3D%22content-date%22%3E15%20Nov%2C%2019%3C/span%3E%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card-body%20post-content%22%3E%3Ca%20href%3D%22%230%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22card-title%20content-title%22%3ECoreldraw%20application%20for%20what%3F%3C/h5%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22card-text%20content-description%22%3ECorelDraw%20is%20software%20designed%20for%20editing%20two-dimensional%20images%20such%20as%20vectors%2C%20illustrations%20and%20photo%20editing%2C%20so%20many%20printing%20companies%20use%20this%20software.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Single%20post--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-sm-8%20col-lg-4%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card%20single-post%22%3E%3Ca%20class%3D%22post-img%22%20href%3D%22%230%22%3E%3Cimg%20class%3D%22card-img-top%22%20src%3D%22img/post-6.jpg%22%20alt%3D%22Blog%20post%22%3E%3Cspan%20class%3D%22content-date%22%3E8%20Aug%2C%2019%3C/span%3E%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22card-body%20post-content%22%3E%3Ca%20href%3D%22%230%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch5%20class%3D%22card-title%20content-title%22%3EIs%20it%20okay%20to%20enjoy%20your%20own%20company%3F%3C/h5%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22card-text%20content-description%22%3EIt%20gives%20you%20mental%20stability%20and%20satisfaction.%20It%20is%20great%20to%20be%20in%20the%20company%20of%20others%20but%20you%20can%27t%20%28and%20shouldn%27t%29%20depend%20on%20others%20to%20make%20you%20feel%20better.%20The%20ability%20to%20enjoy%20your%20own%20company%20is%20related%20to%20happiness%20and%20personal%20satisfaction.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/div%3E%0A%20%20%3C%21--%20Contact%20lightbox--%3E%0A%20%20%3Cdiv%20class%3D%22lightbox-wrapper%22%20id%3D%22contact%22%20data-simplebar%3E%0A%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-close%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22close-btn%22%20data-modal-close%3D%22%22%3E%3Cspan%20class%3D%22btn-line%22%3E%3C/span%3E%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22lightbox-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22section-heading%20page-heading%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22section-description%22%3EFeel%20free%20to%20contact%20me%20anytimes%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch2%20class%3D%22section-title%22%3EGet%20in%20Touch%3C/h2%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22animated-bar%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Contact%20section--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22contact-section%20single-section%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Contact%20form--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-lg-7%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cform%20class%3D%22contact-form%22%20id%3D%22contact-form%22%20action%3D%22http%3A//exill.dk/demo/kitzu/template/php/contact.php%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch4%20class%3D%22content-title%22%3EMessage%20Me%3C/h4%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20form-group%22%3E%3Cinput%20class%3D%22form-control%22%20id%3D%22contact-name%22%20type%3D%22text%22%20name%3D%22name%22%20placeholder%3D%22Name%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-md-6%20form-group%22%3E%3Cinput%20class%3D%22form-control%22%20id%3D%22contact-email%22%20type%3D%22email%22%20name%3D%22email%22%20placeholder%3D%22Email%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20form-group%22%3E%3Cinput%20class%3D%22form-control%22%20id%3D%22contact-subject%22%20type%3D%22text%22%20name%3D%22subject%22%20placeholder%3D%22Subject%22%20required%3D%22%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20form-group%20form-message%22%3E%3Ctextarea%20class%3D%22form-control%22%20id%3D%22contact-message%22%20name%3D%22message%22%20placeholder%3D%22Message%22%20rows%3D%225%22%20required%3D%22%22%3E%3C/textarea%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20form-submit%22%3E%3Cbutton%20class%3D%22btn%20button-main%20button-scheme%22%20id%3D%22contact-submit%22%20type%3D%22submit%22%3ESend%20Message%3C/button%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22contact-feedback%22%3E%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/form%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%21--%20Contact%20info--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-12%20col-lg-5%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22contact-info%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch4%20class%3D%22content-title%22%3EContact%20Info%3C/h4%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cp%20class%3D%22info-description%22%3EAlways%20available%20for%20freelance%20work%20if%20the%20right%20project%20comes%20along%2C%20Feel%20free%20to%20contact%20me%21%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-unstyled%20list-info%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media%20align-items-center%22%3E%3Cspan%20class%3D%22info-icon%22%3E%3Ci%20class%3D%22icon%20ion-logo-ionic%22%3E%3C/i%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media-body%20info-details%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22info-type%22%3EName%3C/h6%3E%3Cspan%20class%3D%22info-value%22%3EAhmad%20Qoidul%20Umam%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media%20align-items-center%22%3E%3Cspan%20class%3D%22info-icon%22%3E%3Ci%20class%3D%22icon%20ion-md-map%22%3E%3C/i%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media-body%20info-details%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22info-type%22%3ELocation%3C/h6%3E%3Cspan%20class%3D%22info-value%22%3ELampung%2C%20Indonesian%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media%20align-items-center%22%3E%3Cspan%20class%3D%22info-icon%22%3E%3Ci%20class%3D%22icon%20ion-md-call%22%3E%3C/i%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media-body%20info-details%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22info-type%22%3EWhatsApp%20Me%3C/h6%3E%3Cspan%20class%3D%22info-value%22%3E%3Ca%20href%3D%22https%3A//wa.me/6285609898113%22%3E+62%20856%200989%208113%3C/a%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media%20align-items-center%22%3E%3Cspan%20class%3D%22info-icon%22%3E%3Ci%20class%3D%22icon%20ion-md-send%22%3E%3C/i%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22media-body%20info-details%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch6%20class%3D%22info-type%22%3EEmail%20Me%3C/h6%3E%3Cspan%20class%3D%22info-value%22%3E%3Ca%20href%3D%22mailto%3A%20umammissqueen@gmail.com%22%3Eumammissqueen@gmail.com%3C/a%3E%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/div%3E%0A%20%20%3C%21--%20removeIf%28customizerDist%29--%3E%0A%20%20%3Cdiv%20class%3D%22demo-tool%22%3E%0A%20%20%20%20%3Cdiv%20class%3D%22tool-wrapper%22%3E%0A%20%20%20%20%20%20%3Cspan%20class%3D%22tool-toggler%22%3E%3Ci%20class%3D%22icon%20ion-md-settings%22%3E%3C/i%3E%3C/span%3E%0A%20%20%20%20%20%20%3Cdiv%20class%3D%22tool-box%22%3E%0A%20%20%20%20%20%20%20%20%3Cul%20class%3D%22list-inline%20single-block%20color-switcher%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%232c31ff%3B%22%20data-path%3D%22css/colors/main-blueviolet.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%233460D1%3B%22%20data-path%3D%22css/colors/main-nightskyblue.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23EE3158%3B%22%20data-path%3D%22css/colors/main-redpink.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23007bff%3B%22%20data-path%3D%22css/colors/main-blue.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%2317a2b8%3B%22%20data-path%3D%22css/colors/main-cyan.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%233365b0%3B%22%20data-path%3D%22css/colors/main-darkblue.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23a435b7%3B%22%20data-path%3D%22css/colors/main-darkmagenta.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23c93e70%3B%22%20data-path%3D%22css/colors/main-darkpink.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23bf2a3d%3B%22%20data-path%3D%22css/colors/main-darkred.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%2328a745%3B%22%20data-path%3D%22css/colors/main-green.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%236610f2%3B%22%20data-path%3D%22css/colors/main-indigo.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23fd7e14%3B%22%20data-path%3D%22css/colors/main-orange.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23e83e8c%3B%22%20data-path%3D%22css/colors/main-pink.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%236f42c1%3B%22%20data-path%3D%22css/colors/main-purple.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23dc3545%3B%22%20data-path%3D%22css/colors/main-red.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%2320c997%3B%22%20data-path%3D%22css/colors/main-teal.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23333%3B%22%20data-path%3D%22css/colors/main-dark.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%2378b230%3B%22%20data-path%3D%22css/colors/main-yellowgreen.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23E16F7C%3B%22%20data-path%3D%22css/colors/main-tangopink.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%236F73D2%3B%22%20data-path%3D%22css/colors/main-moodyblue.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23664C43%3B%22%20data-path%3D%22css/colors/main-brown.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%234770D9%3B%22%20data-path%3D%22css/colors/main-royalblue.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%20class%3D%22list-inline-item%22%20style%3D%22background-color%3A%20%23ffb100%3B%22%20data-path%3D%22css/colors/main-darkyellow.css%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22single-block%20buy-btn%20mb-0%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20class%3D%22btn%20btn-success%20btn-sm%22%20target%3D%22_blank%22%20href%3D%22https%3A//themeforest.net/item/kitzu-personal-portfolio-template/26075107%22%20role%3D%22button%22%3EBuy%20Kitzu%3C/a%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%3C/div%3E%0A%20%20%3C%21--%20endremoveIf%28customizerDist%29--%3E%0A%20%20%3C%21--%20Scripts--%3E%0A%20%20%3Cscript%20src%3D%22js/jquery.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/bootstrap.bundle.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/imagesloaded.pkgd.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/isotope.pkgd.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/animatedModal.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/tiny-slider.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/lity.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/simplebar.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/jquery.mb.YTPlayer.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22js/main.js%22%3E%3C/script%3E%0A%20%20%3C%21--%20Custom%20JS%20%28Add%20your%20custom%20JS%20scripts%20to%20this%20file%29--%3E%0A%20%20%3Cscript%20src%3D%22js/custom.js%22%3E%3C/script%3E%0A%20%20%3C%21--%20removeIf%28customizerDist%29--%3E%0A%20%20%3Cscript%20src%3D%22../customizer/main.js%22%3E%3C/script%3E%0A%20%20%3C%21--%20endremoveIf%28customizerDist%29--%3E%0A%3C/body%3E%0A%0A%0A%3C%21--%20Mirrored%20from%20exill.dk/demo/kitzu/template/index.html%20by%20HTTrack%20Website%20Copier/3.x%20%5BXR%26CO%272014%5D%2C%20Thu%2C%2003%20Sep%202020%2017%3A00%3A43%20GMT%20--%3E%0A%3C/html%3E'))
-</script>
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<!-- Mirrored from exill.dk/demo/kitzu/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2020 16:59:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <!-- Title-->
+  <title>PakTzy - Personal Portfolio</title>
+  <!-- Description-->
+  <meta name="description" content="Personal Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <!-- Web fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+  <!-- CSS vendors-->
+  <link rel="stylesheet" href="css/bootstrap-custom.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/tiny-slider.css">
+  <link rel="stylesheet" href="css/lity.min.css">
+  <link rel="stylesheet" href="css/simplebar.min.css">
+  <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+  <!-- Main CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- CSS Color scheme-->
+  <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkgreen.css">
+  <!-- Custom CSS (Add your custom CSS styles to this file)-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- removeIf(customizerDist)-->
+  <link rel="stylesheet" href="../customizer/main.css">
+  <!-- endremoveIf(customizerDist)-->
+</head>
+
+<body class="theme-dark">
+  <!-- Preloader-->
+  <div class="preloader">
+    <div class="preloader-block">
+      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+    </div>
+  </div>
+  <div id="overlay-effect"></div>
+  <!-- Navbar-->
+  <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
+      <!-- Navbar Logo-->
+      <img class="img-fluid" src="img/paktzy.png" alt="Logo PakTzy"></a>
+    <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
+    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+      <!-- Navbar menu-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home-->
+  <section class="home-area element-cover-bg" id="home" style="background-image:url(img/home.jpg)">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-12 col-lg-8 home-content text-center">
+          <h1 class="home-name">Welcome</span></h1>
+          <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b class="is-visible">Gamer</b><b>Designer</b><b>Modder</b></span></h4>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-wrapper">
+      <!-- Languages list-->
+      <div class="fixed-block block-left">
+        <ul class="list-unstyled languages-list">
+          <li><a href="#0"><span class="single-language">ENG</span></a></li>
+          <li><a href="#0"><span class="single-language">JAP</span></a></li>
+        </ul>
+      </div>
+      <!-- Social media icons-->
+      <div class="fixed-block block-right">
+        <ul class="list-unstyled social-icons">
+          <li><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
+          <li><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+          <li><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
+          <li><a href="#0"><i class="icon ion-logo-github"></i></a></li>
+          <li><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- About lightbox-->
+  <div class="lightbox-wrapper" id="about" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Get to know me</p>
+                  <h2 class="section-title">About Me</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Info section-->
+            <div class="info-section single-section">
+              <div class="row align-items-center">
+                <!-- Picture part-->
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="img/info-img.jpg" alt="About Picture"></div>
+                <!-- Content part-->
+                <div class="col-12 col-lg-7 info-content">
+                  <div class="content-block">
+                    <h2 class="content-subtitle">Who am i?</h2>
+                    <h6 class="content-title">I'm PakTzy, a visual UX/UI Designer and Web Developer</h6>
+                    <div class="content-description">
+                      <p>Modding is a slang expression derived from the English verb "to modify". The term refers to modification of hardware, software, or anything else, to perform a function not originally intended by the designer, or to achieve bespoke specification or appearance.</p>
+                    </div>
+                    <address class="content-info">
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                          <p>Ahmad Qoidul Umam</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                          <p><a href="mailto: umammissqueen@gmail.com">umammissqueen@gmail.com</a></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Age:</span>
+                          <p>20</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>From:</span>
+                          <p>Lampung, Indonesian</p>
+                        </div>
+                      </div>
+                    </address>
+                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="https://wa.me/6285609898113" role="button">Contact Me</a>
+                      <ul class="list-unstyled list-inline content-follow">
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Services section-->
+            <div class="services-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Services i offer to my clients</p>
+                    <h2 class="section-title">My Services</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
+                    <h6 class="service-title">Design Trends</h6>
+                    <p class="service-description">create a design that is currently trending</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-md-images"></i>
+                    <h6 class="service-title">PSD Design</h6>
+                    <p class="service-description">PSD is a file with the extension formed from editing results in the Adobe Photoshop application. However, you can also open this file with various other design and editing applications, such as Coreldraw, Paint Shop Pro Tools, and the like.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
+                    <h6 class="service-title">Customer Support</h6>
+                    <p class="service-description">Customer Support is a range of services to assist customers in making cost effective and correct use of a product. It includes assistance in planning, installation, training, troubleshooting, maintenance, upgrading, and disposal of a product.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-wordpress"></i>
+                    <h6 class="service-title">Web Development</h6>
+                    <p class="service-description">Web development is the process of building and maintaining websites. This process works behind the scenes to create attractive and well-functioning websites to enhance the user experience.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-md-move"></i>
+                    <h6 class="service-title">Fully Responsive</h6>
+                    <p class="service-description">The website that we make will be responsive for any device.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-ios-rocket"></i>
+                    <h6 class="service-title">Branding</h6>
+                    <p class="service-description">make your website more professional, by using our services</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonials section-->
+            <div class="testimonials-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">What my clients think about me</p>
+                    <h2 class="section-title">Testimonials</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="my-slider">
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-1.jpg" alt="Client">
+                          <div class="client-details">
+                            <h6 class="client-name">Julia Sakura</h6><span class="client-role">Envato Customer</span>
+                          </div>
+                        </div>
+                      </div><i class="icon ion-md-quote review-icon"></i>
+                    </div>
+                    <p class="review-content">I was skeptical at first, but after implementing their marketing strategy, our website visits increased by 50% within three months. Their expertise and personalized approach have had a significant impact on our business growth.</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-2.jpg" alt="Client">
+                          <div class="client-details">
+                            <h6 class="client-name">John Santana</h6><span class="client-role">Entrepreneur</span>
+                          </div>
+                        </div>
+                      </div><i class="icon ion-md-quote review-icon"></i>
+                    </div>
+                    <p class="review-content">The CEO services from PakTzy have made a difference to the development of our online store. After using CEO services we experienced a 425% increase in product purchases through our online store – amazing!</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/client-3.jpg" alt="Client">
+                          <div class="client-details">
+                            <h6 class="client-name">Maria Wilson</h6><span class="client-role">Envato Customer</span>
+                          </div>
+                        </div>
+                      </div><i class="icon ion-md-quote review-icon"></i>
+                    </div>
+                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pricing section-->
+            <div class="pricing-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Get started with my services</p>
+                    <h2 class="section-title">Choose a Plan</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <!-- Single plan-->
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5"><i class="plan-icon icon ion-md-egg"></i>
+                    <h3 class="plan-type">Standard</h3>
+                    <h2 class="plan-price">$19/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>Mobile App Design</li>
+                      <li>Responsive Design</li>
+                      <li>Database Development</li>
+                      <li>Web Design</li>
+                      <li>24/7 Support</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="https://wa.me/6285609898113" role="button">Get Standard</a>
+                  </div>
+                </div>
+                <!-- Single plan-->
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5"><i class="plan-icon icon ion-ios-rocket"></i>
+                    <h3 class="plan-type">Professional</h3>
+                    <h2 class="plan-price">$29/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>Mobile App Design</li>
+                      <li>Responsive Design</li>
+                      <li>Database Development</li>
+                      <li>Web Design</li>
+                      <li>24/7 Support</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="https://wa.me/6285609898113" role="button">Get Pro</a>
+                  </div>
+                </div>
+                <!-- Single plan-->
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5"><i class="plan-icon icon ion-logo-ionic"></i>
+                    <h3 class="plan-type">Business</h3>
+                    <h2 class="plan-price">$39/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>Mobile App Design</li>
+                      <li>Responsive Design</li>
+                      <li>Database Development</li>
+                      <li>Web Design</li>
+                      <li>24/7 Support</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="https://wa.me/6285609898113" role="button">Get Business</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Resume lightbox-->
+  <div class="lightbox-wrapper" id="resume" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Check out my Resume</p>
+                  <h2 class="section-title">Resume</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Resume section-->
+            <div class="resume-section single-section">
+              <div class="row">
+                <!-- Education part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block education">
+                    <h3 class="col-title">Education</h3>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Computer Science</h5><span class="item-details">Open University / 2011 - 2015</span>
+                      <p class="item-description">Computer science is the study of computers and computational systems. It is a broad field which includes everything from the algorithms that make up software to how software interacts with hardware to how well software is developed and designed..</p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Bachelor Degree</h5><span class="item-details">University of Tokyo / 2015 - 2019</span>
+                      <p class="item-description">I have got a bachelor's degree after I graduated from one of the universities in Tokyo.</p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Master Degree</h5><span class="item-details">Harvard University / 2019 - 2023</span>
+                      <p class="item-description">I got a master degree after finishing college at harvard universit.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Experience part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block experience">
+                    <h3 class="col-title">Experience</h3>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Software Engineer</h5><span class="item-details">Adobe / 2015 - 2017</span>
+                      <p class="item-description">Software engineering is an engineering-based approach to software development. A software engineer is a person who applies the engineering design process to design, develop, maintain, test, and evaluate computer software. The term programmer is sometimes used as a synonym, but may also refer more to implementation rather than design and can also lack connotations of engineering education or skills.</p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">Back-End Developer</h5><span class="item-details">Google / 2017 - 2018</span>
+                      <p class="item-description">Web development activities that are done at the back end of programs are referred to as back end development. Back-end development covers server-side web application logic and integration and activities, like writing APIs, creating libraries, and working with system components instead of frontend development, which focuses on customer-facing services and programs. Backend developers build code that allows a database and an application to communicate with one another. Backend developers take care and maintain the back-end of a website, Including databases, servers, and apps, and they control what you don't see.</p>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h5 class="item-title">UI/UX Designer</h5><span class="item-details">Discord / 2019 - Present</span>
+                      <p class="item-description">UI Designer is a professional who collaborates with a User Experience (UX) designer to create an intuitive and visually appealing interface for product design. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills section-->
+            <div class="skills-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">My level of knowledge in some tools</p>
+                    <h2 class="section-title">My Skills</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="single-skill" data-percentage="95">
+                    <div class="skill-info"><span class="skill-name">HTML/CSS</span><span class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="80">
+                    <div class="skill-info"><span class="skill-name">Web Design</span><span class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="90">
+                    <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="single-skill" data-percentage="90">
+                    <div class="skill-info"><span class="skill-name">React JS</span><span class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="95">
+                    <div class="skill-info"><span class="skill-name">Express.js</span><span class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="single-skill" data-percentage="80">
+                    <div class="skill-info"><span class="skill-name">TypeScript</span><span class="skill-percentage"></span></div>
+                    <div class="progress skill-progress">
+                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Video section-->
+            <div class="video-section single-section">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-6 content-part">
+                  <h3 class="video-title">Take a tour of my office</h3>
+                  <p class="video-description">I'm a beginner who wants to work with what I can</p>
+                  <p class="video-description">If you want to see my skills please follow me on instagram.</p>
+                </div>
+                <div class="col-12 col-lg-6 video-part"><a class="media-lightbox" href="https://youtu.be/NvZ6Jn0mvXg" data-lightbox>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <div class="embed-responsive-item element-cover-bg"><span class="play-wrapper"><i class="icon ion-md-play"></i></span></div>
+                    </div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio lightbox-->
+  <div class="lightbox-wrapper" id="portfolio" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Showcasing some of my best work</p>
+                  <h2 class="section-title">Portfolio</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section-->
+            <div class="portfolio-section single-section">
+              <div class="row">
+                <!-- Filter nav-->
+                <div class="col-12">
+                  <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
+                    <li class="list-inline-item tab-active" data-filter="*">All</li>
+                    <li class="list-inline-item" data-filter=".brand">Brand</li>
+                    <li class="list-inline-item" data-filter=".design">Design</li>
+                    <li class="list-inline-item" data-filter=".photos">Photos</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Thumbnail list-->
+              <div class="portfolio-grid row">
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 design"><a class="portfolio-item" href="img/item-1.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-1.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">Label Tag Mockup</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 photos"><a class="portfolio-item" href="img/item-2.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-2.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">3D Bag Mockup</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 design"><a class="portfolio-item" href="img/item-3.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-3.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">Modern Bag Design</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 brand"><a class="portfolio-item" href="img/item-4.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-4.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">Coffee Cup Design</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 brand"><a class="portfolio-item" href="img/item-5.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-5.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">T-Shirt Design</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 photos"><a class="portfolio-item" href="img/item-6.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-6.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">Packaging Box Mockup</h6><span class="content-more">More Info</span>
+                      </div>
+                    </div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blog lightbox-->
+  <div class="lightbox-wrapper" id="blog" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Check out my latest blog posts</p>
+                  <h2 class="section-title">My Blog</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Blog section-->
+            <div class="blog-section single-section">
+              <div class="row justify-content-center">
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-1.jpg" alt="Blog post"><span class="content-date">11 Dec, 20</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Top tools for Photographers</h5>
+                      </a>
+                      <p class="card-text content-description">Regardless of what type of photos you take, there are a handful of tools used by all photographers. These tools are used to improve your photography, workflow, and make capturing the perfect shot easier than ever. With so many pieces of gear, editing programs, and fancy accessories, it’s hard to cancel out all the noise. To make your life easy, here are the 12 best tools for photographers to start capturing photos like a professional.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-2.jpg" alt="Blog post"><span class="content-date">12 Aug, 20</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">What is the key to a successful design?</h5>
+                      </a>
+                      <p class="card-text content-description">Create a focus on the end user, Create a collaborative environment, drawing in all members of the team who will have to execute the project. Be prepared to fail fast and rethink the solution on the fly, Make use of quick and dirty iterative prototyping.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-3.jpg" alt="Blog post"><span class="content-date">4 Feb, 20</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">How long does it take to become web designer?</h5>
+                      </a>
+                      <p class="card-text content-description">How Long Does It Take to Become a Web Developer? Pursuing a college degree in web development, computer science, or computer programming takes 2-4 years, depending on whether you get an associate degree or a bachelor's degree.</p>
+                    </div>
+                  </div>
+                </div><!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-4.jpg" alt="Blog post"><span class="content-date">11 Dec, 19</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">What factors most influence a person's performance?</h5>
+                      </a>
+                      <p class="card-text content-description">factors that affect employee performance include: competence, culture, motivation, leadership, work environment.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-5.jpg" alt="Blog post"><span class="content-date">15 Nov, 19</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Coreldraw application for what?</h5>
+                      </a>
+                      <p class="card-text content-description">CorelDraw is software designed for editing two-dimensional images such as vectors, illustrations and photo editing, so many printing companies use this software.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-6.jpg" alt="Blog post"><span class="content-date">8 Aug, 19</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Is it okay to enjoy your own company?</h5>
+                      </a>
+                      <p class="card-text content-description">It gives you mental stability and satisfaction. It is great to be in the company of others but you can't (and shouldn't) depend on others to make you feel better. The ability to enjoy your own company is related to happiness and personal satisfaction.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact lightbox-->
+  <div class="lightbox-wrapper" id="contact" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Feel free to contact me anytimes</p>
+                  <h2 class="section-title">Get in Touch</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact section-->
+            <div class="contact-section single-section">
+              <div class="row">
+                <!-- Contact form-->
+                <div class="col-12 col-lg-7">
+                  <form class="contact-form" id="contact-form" action="http://exill.dk/demo/kitzu/template/php/contact.php">
+                    <h4 class="content-title">Message Me</h4>
+                    <div class="row">
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
+                      <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
+                      <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
+                      <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
+                        <p class="contact-feedback"></p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- Contact info-->
+                <div class="col-12 col-lg-5">
+                  <div class="contact-info">
+                    <h4 class="content-title">Contact Info</h4>
+                    <p class="info-description">Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                    <ul class="list-unstyled list-info">
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-logo-ionic"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Name</h6><span class="info-value">Ahmad Qoidul Umam</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-map"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Location</h6><span class="info-value">Lampung, Indonesian</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-call"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">WhatsApp Me</h6><span class="info-value"><a href="https://wa.me/6285609898113">+62 856 0989 8113</a></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-send"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Email Me</h6><span class="info-value"><a href="mailto: umammissqueen@gmail.com">umammissqueen@gmail.com</a></span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- removeIf(customizerDist)-->
+  <div class="demo-tool">
+    <div class="tool-wrapper">
+      <span class="tool-toggler"><i class="icon ion-md-settings"></i></span>
+      <div class="tool-box">
+        <ul class="list-inline single-block color-switcher">
+          <li class="list-inline-item" style="background-color: #2c31ff;" data-path="css/colors/main-blueviolet.css"></li>
+          <li class="list-inline-item" style="background-color: #3460D1;" data-path="css/colors/main-nightskyblue.css"></li>
+          <li class="list-inline-item" style="background-color: #EE3158;" data-path="css/colors/main-redpink.css"></li>
+          <li class="list-inline-item" style="background-color: #007bff;" data-path="css/colors/main-blue.css"></li>
+          <li class="list-inline-item" style="background-color: #17a2b8;" data-path="css/colors/main-cyan.css"></li>
+          <li class="list-inline-item" style="background-color: #3365b0;" data-path="css/colors/main-darkblue.css"></li>
+          <li class="list-inline-item" style="background-color: #a435b7;" data-path="css/colors/main-darkmagenta.css"></li>
+          <li class="list-inline-item" style="background-color: #c93e70;" data-path="css/colors/main-darkpink.css"></li>
+          <li class="list-inline-item" style="background-color: #bf2a3d;" data-path="css/colors/main-darkred.css"></li>
+          <li class="list-inline-item" style="background-color: #28a745;" data-path="css/colors/main-green.css"></li>
+          <li class="list-inline-item" style="background-color: #6610f2;" data-path="css/colors/main-indigo.css"></li>
+          <li class="list-inline-item" style="background-color: #fd7e14;" data-path="css/colors/main-orange.css"></li>
+          <li class="list-inline-item" style="background-color: #e83e8c;" data-path="css/colors/main-pink.css"></li>
+          <li class="list-inline-item" style="background-color: #6f42c1;" data-path="css/colors/main-purple.css"></li>
+          <li class="list-inline-item" style="background-color: #dc3545;" data-path="css/colors/main-red.css"></li>
+          <li class="list-inline-item" style="background-color: #20c997;" data-path="css/colors/main-teal.css"></li>
+          <li class="list-inline-item" style="background-color: #333;" data-path="css/colors/main-dark.css"></li>
+          <li class="list-inline-item" style="background-color: #78b230;" data-path="css/colors/main-yellowgreen.css"></li>
+          <li class="list-inline-item" style="background-color: #E16F7C;" data-path="css/colors/main-tangopink.css"></li>
+          <li class="list-inline-item" style="background-color: #6F73D2;" data-path="css/colors/main-moodyblue.css"></li>
+          <li class="list-inline-item" style="background-color: #664C43;" data-path="css/colors/main-brown.css"></li>
+          <li class="list-inline-item" style="background-color: #4770D9;" data-path="css/colors/main-royalblue.css"></li>
+          <li class="list-inline-item" style="background-color: #ffb100;" data-path="css/colors/main-darkyellow.css"></li>
+        </ul>
+        <div class="single-block buy-btn mb-0">
+          <a class="btn btn-success btn-sm" target="_blank" href="https://themeforest.net/item/kitzu-personal-portfolio-template/26075107" role="button">Buy Kitzu</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- endremoveIf(customizerDist)-->
+  <!-- Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/animatedModal.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/lity.min.js"></script>
+  <script src="js/simplebar.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Custom JS (Add your custom JS scripts to this file)-->
+  <script src="js/custom.js"></script>
+  <!-- removeIf(customizerDist)-->
+  <script src="../customizer/main.js"></script>
+  <!-- endremoveIf(customizerDist)-->
+</body>
+
+
+<!-- Mirrored from exill.dk/demo/kitzu/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2020 17:00:43 GMT -->
+</html>
